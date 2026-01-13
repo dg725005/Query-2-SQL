@@ -8,6 +8,7 @@ import os
 dotenv.load_dotenv()
 
 api_key = os.getenv("OPENAI_API_KEY") or st.secrets.get("OPENAI_API_KEY")
+api_key = os.getenv("OPENAI_API_KEY") or st.secrets.get("OPENAI_API_KEY")
 # Setup Client
 # client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 client = openai.OpenAI(api_key=api_key)
