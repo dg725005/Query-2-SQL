@@ -1,5 +1,8 @@
-openai
+numpy
 pandas
+openai
+dotenv
 python-dotenv
 sqlite3
 streamlit
+os
