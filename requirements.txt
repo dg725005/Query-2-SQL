@@ -3,3 +3,4 @@ dotenv
 pandas
 sqlite3
 os
+streamlit
